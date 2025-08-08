@@ -1,0 +1,31 @@
+2025-08-08 10:15:42 INFO  Server started on port 8080
+2025-08-08 10:16:01 INFO  New connection from 192.168.1.10
+2025-08-08 10:16:05 WARN  High memory usage detected
+2025-08-08 10:16:15 ERROR Database connection failed for user admin
+2025-08-08 10:16:20 INFO  Request handled for /index.html
+2025-08-08 10:17:00 INFO  New connection from 192.168.1.15
+2025-08-08 10:17:12 ERROR Failed to load configuration file config.yaml
+2025-08-08 10:17:25 WARN  Disk usage above 85%
+2025-08-08 10:18:00 INFO  User john logged in
+2025-08-08 10:18:35 INFO  Request handled for /about.html
+2025-08-08 10:19:10 INFO  New connection from 10.0.0.45
+2025-08-08 10:19:45 ERROR Timeout while connecting to API service
+2025-08-08 10:20:00 INFO  User admin logged out
+2025-08-08 10:21:05 WARN  CPU temperature high: 85C
+2025-08-08 10:22:00 INFO  Server shutting down
+2025-08-08 08:12:01 INFO  [AuthService] User john logged in from 192.168.1.10
+2025-08-08 08:12:15 WARN  [AuthService] Failed login attempt for user admin from 192.168.1.11
+2025-08-08 08:12:42 INFO  [WebServer] GET /index.html 200 1543ms
+2025-08-08 08:13:01 INFO  [WebServer] GET /about.html 200 987ms
+2025-08-08 08:13:45 ERROR [DBService] Database connection timeout for query SELECT * FROM users
+2025-08-08 08:14:12 INFO  [WebServer] POST /login 302 120ms
+2025-08-08 08:14:55 WARN  [CacheService] Cache miss for key session_123
+2025-08-08 08:15:20 INFO  [AuthService] User jane logged out
+2025-08-08 08:16:02 ERROR [APIService] Failed to fetch data from external API: timeout
+2025-08-08 08:17:18 INFO  [WebServer] GET /products 200 2048ms
+2025-08-08 08:18:30 INFO  [WebServer] GET /cart 200 456ms
+2025-08-08 08:19:00 WARN  [DiskMonitor] Disk usage 92% on /dev/sda1
+2025-08-08 08:19:45 ERROR [PaymentService] Payment gateway rejected transaction ID 87345
+2025-08-08 08:20:10 INFO  [WebServer] GET /checkout 500 234ms
+2025-08-08 08:21:55 INFO  [AuthService] User mark logged in from 10.0.0.5
+2025-08-08 08:22:01 INFO  [AuthService] User john logged in from 192.168.1.10
